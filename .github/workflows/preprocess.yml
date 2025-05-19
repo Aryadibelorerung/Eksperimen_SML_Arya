@@ -43,7 +43,7 @@ jobs:
           if [[ -f preprocessing/titanic_clean.csv ]]; then
             git add preprocessing/titanic_clean.csv
             git diff --staged --quiet || git commit -m "Update preprocessed Titanic dataset"
-            git push https://x-access-token:${GITHUB_TOKEN}@github.com/aryait/Eksperimen_SML_Arya.git HEAD:master
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/Aryadibelorerung/Eksperimen_SML_Arya.git HEAD:master
           else
             echo "Preprocessed data file not found. Skipping commit."
           fi
