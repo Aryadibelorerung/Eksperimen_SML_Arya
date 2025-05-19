@@ -1,4 +1,5 @@
 mlruns
+prometheus
 Membangun_model.ipynb_checkpoints
 Membangun_model/confusion_matrix.json
 Membangun_model/estimator.json
