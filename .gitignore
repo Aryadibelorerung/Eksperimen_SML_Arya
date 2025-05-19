@@ -1,6 +1,5 @@
 mlruns
 prometheus
-Workflows-CI
 Membangun_model.ipynb_checkpoints
 Membangun_model/confusion_matrix.json
 Membangun_model/estimator.json

@@ -35,5 +35,3 @@ def preprocess_data(file_path):
 
 if __name__ == "__main__":
     preprocess_data("Titanic-Dataset.csv")
-
-    # test trigger
