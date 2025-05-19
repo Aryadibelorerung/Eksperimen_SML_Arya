@@ -26,7 +26,7 @@ def preprocess_data(file_path):
     df['Age_Group'] = pd.cut(df['Age'], bins=bins, labels=labels, right=False)
     df['Age_Group'] = LabelEncoder().fit_transform(df['Age_Group'].astype(str))
 
-    output_path = "preprocessing/titanic_preprocessing.csv"
+    output_path = "preprocessing/titanic_clean.csv"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     df.to_csv(output_path, index=False)
 
